@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberCafe Services</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover no-repeat;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-shadow: 1px 1px 4px #000;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">CyberCafe</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="container text-center">
+        <h1 class="display-4 fw-bold">Welcome to Our CyberCafe</h1>
+        <p class="lead">Fast. Reliable. Affordable digital services.</p>
+        <a href="#services" class="btn btn-primary btn-lg">View Services</a>
+    </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="services" class="py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Our Services</h2>
+        <div class="row g-4">
+
+            <!-- Printing -->
+            <div class="col-md-4">
+                <div class="card service-card shadow-sm">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">🖨️ Printing</h4>
+                        <p>High-quality color and black & white printing at friendly prices.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photocopy -->
+            <div class="col-md-4">
+                <div class="card service-card shadow-sm">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">📄 Photocopy</h4>
+                        <p>Fast photocopying services for documents of all sizes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scanning -->
+            <div class="col-md-4">
+                <div class="card service-card shadow-sm">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">📷 Scanning</h4>
+                        <p>Digital scanning of documents and photos in high resolution.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Internet Browsing -->
+            <div class="col-md-4">
+                <div class="card service-card shadow-sm">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">🌐 Internet Browsing</h4>
+                        <p>High-speed browsing, research, emails, and online applications.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typing -->
+            <div class="col-md-4">
+                <div class="card service-card shadow-sm">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">⌨️ Typing Services</h4>
+                        <p>Professional document typing and formatting services.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lamination -->
+            <div class="col-md-4">
+                <div class="card service-card shadow-sm">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">📘 Lamination</h4>
+                        <p>Protect your documents with high-quality lamination.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">About Us</h2>
+        <p class="text-center mx-auto" style="max-width: 600px;">
+            We provide fast, reliable, and affordable digital services. Our CyberCafe
+            is equipped with modern computers, high-speed internet, and professional machines for printing,
+            scanning, and more.
+        </p>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">Contact Us</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="shadow p-4 bg-white rounded">
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+    © 2025 CyberCafe. All rights reserved.
+
+    <a href="mailto:ondiekiezra538@gmail.com"> Send me An Email!</a>
+
+    <br>
+    <br>
+    
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
